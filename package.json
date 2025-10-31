@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "npx ng b --base-href /cms/ --configuration production",
+    "build": "npx ng b --base-href / --configuration production",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "serve:ssr:ess": "node dist/ess/server/server.mjs"
